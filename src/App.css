@@ -1,0 +1,49 @@
+.mainApp{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.App{
+  border: 1px solid #3d3d3d;
+  padding: 25px 15px;
+  width: 500px;
+  /* margin:  auto; */
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.container ul li{
+  width: 380px;
+  overflow-wrap: break-word;
+  list-style-type: '👉';
+  cursor: pointer;
+}
+
+.completed{
+  text-decoration: line-through;
+}
+
+.each_item{
+  display:  flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.each_item span{
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.container div.add_event{
+  max-width: 500px !important;
+  text-align: center !important;
+}
+.add_event button{
+  width: 100%;
+  margin-top: 10px;
+}
